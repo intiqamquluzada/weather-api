@@ -7,7 +7,7 @@ def index(request):
     params = {
         'lat': 40.407660,
         'lon': 49.847768,
-        'appid': 'efe18c6b3ddfd47406c0bc1bba75301e'
+        'appid': 'XXXXX'
     }
 
     response = requests.get(url, params=params)
